@@ -3,10 +3,10 @@ name: Locust Stess Test
 on:
     push:
         branches:
-            - main
-    workflow_dispatch:
-    schedule:
-        - cron: '0 2 * * *' #everyday at 2 AM
+            - master
+    # workflow_dispatch:
+    # schedule:
+    #     - cron: '0 2 * * *' #everyday at 2 AM
 
 jobs:
     stress-test:
